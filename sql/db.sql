@@ -1,0 +1,9 @@
+CREATE TABLE empresas(
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  nombre VARCHAR(255),
+  direccion VARCHAR(255),
+  nit VARCHAR(255),
+  telefono VARCHAR(255) NOT NULL UNIQUE
+);
+
+
